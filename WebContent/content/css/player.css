@@ -1,0 +1,317 @@
+/*html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+html {
+	font-size: 100%;
+	overflow-y: scroll;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}*/
+/*
+body {
+	font: normal 1em Arial, Geneva, sans-serif;
+	text-align: center;
+}
+
+h1 {
+	margin: 0;
+	padding: 18px 0;
+}
+
+h3 {
+	margin: 0;
+	padding: 0;
+	font-style: italic;
+}
+
+a, a:hover {
+	color: #000000;
+	text-decoration: none;
+}*/
+
+audio {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+
+button {
+	font-size: 100%;
+	margin: 0;
+	vertical-align: baseline;
+	*vertical-align: middle;
+	line-height: normal;
+	*overflow: visible;
+}
+
+.simBtn {
+	border: 1px dotted;
+}
+
+div#use {
+	display: none;
+	border: 1px solid;
+	border-radius: 8px;
+}
+
+div#useLegend {
+	cursor: pointer;
+}
+
+#useSpan {
+	font-size: 80%;
+}
+
+
+
+
+
+/*div#container {
+	background: rgb(220,220,220);
+	position: relative;
+	min-height: 100%;*/
+	/*width: 750px;*/
+/*	margin: 0 auto;
+	text-align: left;
+}*/
+
+
+div#cwrap {
+	padding: 20px 20px;
+}
+
+footer {
+	position: absolute;
+	width: 100%;
+	height: 33px;
+	bottom: 0;
+	right: 0;
+	font-size: 11px;
+	text-align: center;
+	line-height: 33px;
+}
+
+
+#audiowrap {
+ 	width: 100%; 
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 20px;
+}
+
+
+#audio1 {
+	width: 100%;
+	
+	
+}
+
+.double {
+	padding-bottom: 20px;
+}
+
+.ctrlbtn {
+	width: 148px;
+	cursor: pointer;
+}
+
+.no-audio {
+	display: none;
+}
+
+div#extraControls {
+	padding-top: 5px;
+	color: gray;
+}
+
+
+div#plwrap {
+	font-size: 1em;
+	overflow: auto;
+	width: 1250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#cover-art {
+	width: 600px;
+	height: 600px;
+	float: left;
+	position: absolute;
+	
+}
+
+#playlist{
+	float: right;
+	width: 600px;
+	height: 600px;
+
+}
+
+#plUL {
+	list-style: none;
+	margin: 0;
+	padding: 0px 0 0 0;
+	
+}
+
+#plUL li {
+	cursor: pointer;
+	line-height: 36px;
+
+/* 	margin: 0 3px 6px 3px; */
+}
+
+#plUL li:hover {
+	font-size: 1.25em;
+	background: rgb(235, 235, 235);
+}
+
+p.plus10 {
+	padding-left: 10px;
+}
+
+.plHead {
+	position: absolut;
+	background: rgb(120,120,120);
+	font-color: white;
+	width: 600px;
+	height: 50px;
+	float: right;
+	
+}
+
+.plHeadTitle{
+	text-align: center;
+	color: white;
+	font-size: 1.7em;
+	padding-top: 10px;
+	float: left;
+	padding-left: 20px;
+}
+
+
+.plItem {
+	position: relative;
+	background: rgb(245,245,245);
+
+}
+
+.add_to_cart_button{
+	background: rgb(17,122,238);
+	position: relative;
+/* 	float: right; */
+	}
+
+.add_to_cart_button:hover{
+     background: rgb(11,75,147);
+}
+
+div#product-option-shop{
+	font-weight: 50%;
+	width: 50%;
+	height: 100%;
+	float: right;
+	overflow: hidden;
+}
+.add_album_button{
+	font-family: "Raleway",sans-serif;
+ 	background: lightgray;
+    border: medium none;
+    color: black;
+    padding: 18px 25px;
+    display: inline-block;
+	float: right; 
+	vertical-align: middle;
+	   
+}
+
+.add_Album_button:hover{
+
+     background: rgb(100,100,100);
+     color: white;
+}
+
+.product-option-shop{
+	position: relative;
+}
+
+div#nowPlay{
+	padding-bottom: 20px;
+	witdh: 1250px;
+	overflow: auto;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+
+.#plHead {
+	
+	padding-bottom: 20px;
+
+}
+
+.plTitle {
+	position: absolute;
+	top: 0;
+	right: 65px;
+	left: 30px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	overflow: auto;
+}
+
+.plHeadTitle{
+	font-family: "Raleway",sans-serif;
+	font-weight: 100;
+}
+
+.plHeadNum, .plNum {
+	width: 25px;
+}
+
+.plHeadNum, .plNum, .plLength {
+	text-align: right;
+}
+
+.plHeadLength, .plLength {
+	position: absolute;
+	top: 0;
+	right: 5px;
+	width: 60px;
+}
+
+.plLength{
+	float: right;
+}
+
+.btn-track{
+  background: rgb(200,200,200);
+  
+}
+
+
+.plSel, .plSel:hover {
+	background: rgb(229,229,229);
+	font-size: 1.25em;
+	cursor: default !important;
+}
+
+.is-audio, #audio0 {
+	display: none;
+}
+
+.js.audio .is-audio {
+	display: block;
+}
+
+.js #audio0 {
+	display: block;
+}

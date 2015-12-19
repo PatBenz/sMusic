@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="btbf4" transaction-type="RESOURCE_LOCAL">
+		<description>persistence provider</description>
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<class>be.btbf4.entities.Role</class>
+		<class>be.btbf4.entities.User</class>
+		<class>be.btbf4.entities.Album</class>
+		<class>be.btbf4.entities.AlbumSong</class>
+		<class>be.btbf4.entities.Artist</class>
+		<class>be.btbf4.entities.ArtistType</class>
+		<class>be.btbf4.entities.Editor</class>
+		<class>be.btbf4.entities.Genre</class>
+		<class>be.btbf4.entities.Song</class>
+		<class>be.btbf4.entities.SongArtist</class>
+		<properties>
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/itunes"/>
+			<property name="javax.persistence.jdbc.user" value="root"/>
+			<property name="javax.persistence.jdbc.password" value=""/>
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+		</properties>
+	</persistence-unit>
+</persistence>
